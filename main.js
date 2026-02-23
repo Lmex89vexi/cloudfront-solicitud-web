@@ -11,6 +11,9 @@ function handler(event) {
         requestUrl = requestUrl.slice(0, -1);
     }
     
+    
+
+
     //Mapeo de urls de afiliado
     // Objetos de mapeo de URL de origen a URL de destino
     //Mapeo de afiliados con webhook
@@ -65,7 +68,7 @@ function handler(event) {
         '/alexiagarcia': 'codRef=30079',
         '/promeritumcupon': 'codRef=159903',
         '/promeritum': 'codRef=159904',
-        '/vexiapp': 'codRef=164003',
+        '/vexiapp': 'codRef=164003&utm_source=vexi_app&utm_medium=enlace_interno&utm_campaign=boton_solicitar_tarjeta',
         '/inversionistas50': 'codRef=178592',
         '/diri': 'codRef=205105',
         '/pillofon': 'codRef=214280',
