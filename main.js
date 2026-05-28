@@ -153,7 +153,6 @@ function handler(event) {
     ];
     var mapeoOrganicoCodRef = [
           '291329',
-          '277236',
           '283404',
           '247578',];
 
